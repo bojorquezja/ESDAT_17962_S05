@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using colales;
+
+ColaLES c = new ColaLES();
+c.Enqueue("Hola");
+c.Enqueue("mi");
+c.Enqueue("amigo");
+c.Dequeue();
+//Console.WriteLine(c.GetValor(1));
+Console.WriteLine(c.ToString());
